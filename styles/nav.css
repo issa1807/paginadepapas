@@ -1,0 +1,65 @@
+.navigation-wrapper {
+    height: 190px;
+     background-color :#11112b;
+     display: flex;
+     justify-content: space-between ;
+     align-items: center;
+     padding: 100px;
+ }
+ .navigation-wrapper>.left-column{
+     display: flex;
+     align-items: center;
+ }
+ .navigation-wrapper>.icon{
+     margin-right: 15px;
+ }
+ .navigation-wrapper>.icon i{
+     font-size: 2em;
+ }
+ .navigation-wrapper>.left-column>.contact-hours-wrapper{
+     display: grid;
+     grid-template-columns: 1fr ;
+     color: #858585;
+     font-size: 0.8em;
+ }.navigation-wrapper> .right-column> .addres-wrapper {
+    font-family: 'Roboto', sans-serif;
+    color:red;
+}
+.navigation-wrapper> .center-column {
+display:grid;    
+grid-template-columns: 1fr;
+grid-gap: 42px; 
+width: 500px;
+}
+.navigation-wrapper> .center-column> .banner-image {
+display: flex ; 
+justify-content:center; 
+}
+.navigation-wrapper>.center-column>.banner-image img{
+width: 216px;
+height: 100%;
+}
+.hero-section{
+    background-image: url(../images/backround/fries-hero-bg\ \(1\).jpg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: no-repeat ;
+    background-size: cover;
+}
+.hero-section> .top-heading{
+padding: 1px 20px;
+background-color: #11122B;
+color: #CBCBCB;
+width: 290px;
+border-radius: 2px;
+}
+.hero-section>.bottom-heading{
+    background-color: #CEA135;
+    color: #11122B;
+    padding: 1px 20px;
+    margin-top: 15px;
+    width: 107px;
+    border-radius: 2px;
+}
+/* features section styles */

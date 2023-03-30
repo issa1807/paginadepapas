@@ -1,0 +1,63 @@
+/* class es un . y id es un # */
+
+/* estilos para index que es home page */
+ 
+
+.phone-icon {
+    color: rgb(128, 13, 237);
+}
+
+.location-icon {
+    color: blueviolet;
+}
+
+
+
+.hours {
+font-family: 'Roboto', sans-serif;
+color: #7f8283;
+} 
+
+.links-wrapper>.nav-link a {
+     
+     font-family: 'Roboto', sans-serif; 
+    color: rgb(239, 10, 189);
+
+}
+
+
+.links-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.links-wrapper> .nav-link{
+    width: 70px;
+    text-align: center;
+}
+.links-wrapper> .nav-link a{
+    font-family: "unbntu condensed", sans-serif;
+    color: #cbcbcb;
+     text-decoration: none;
+     transition: 0.5s;}
+/* } la transition es para ampliar los botones */
+
+.links-wrapper> .nav-link a:hover{
+    color: #f9b107;
+    letter-spacing:2px; 
+}
+
+   
+  
+
+ 
+
+ 
+  
+     
+
+      
+   
+
+
